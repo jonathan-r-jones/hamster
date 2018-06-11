@@ -25,23 +25,11 @@ namespace NavigationMasterDetail {
             var page1 = new MasterPageItem() { Title = "Home", Icon = "itemIcon1.png", TargetType = typeof(TestPage1) };
             var page2 = new MasterPageItem() { Title = "Report 2", Icon = "itemIcon2.png", TargetType = typeof(TestPage2) };
             var page3 = new MasterPageItem() { Title = "Report 3", Icon = "itemIcon3.png", TargetType = typeof(TestPage3) };
-            var page4 = new MasterPageItem() { Title = "Report 4", Icon = "itemIcon4.png", TargetType = typeof(TestPage1) };
-            var page5 = new MasterPageItem() { Title = "Report 5", Icon = "itemIcon5.png", TargetType = typeof(TestPage2) };
-            var page6 = new MasterPageItem() { Title = "Report 6", Icon = "itemIcon6.png", TargetType = typeof(TestPage3) };
-            var page7 = new MasterPageItem() { Title = "Report 7", Icon = "itemIcon7.png", TargetType = typeof(TestPage1) };
-            var page8 = new MasterPageItem() { Title = "Report 8", Icon = "itemIcon8.png", TargetType = typeof(TestPage2) };
-            var page9 = new MasterPageItem() { Title = "Report 9", Icon = "itemIcon9.png", TargetType = typeof(TestPage3) };
 
             // Adding menu items to menuList
             menuList.Add(page1);
             menuList.Add(page2);
             menuList.Add(page3);
-            menuList.Add(page4);
-            menuList.Add(page5);
-            menuList.Add(page6);
-            menuList.Add(page7);
-            menuList.Add(page8);
-            menuList.Add(page9);
 
             // Setting our list to be ItemSource for ListView in MainPage.xaml
             navigationDrawerList.ItemsSource = menuList;

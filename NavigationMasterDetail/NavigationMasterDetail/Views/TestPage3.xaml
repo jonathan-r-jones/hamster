@@ -2,5 +2,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NavigationMasterDetail.Views.TestPage3">
-  <Label Text="Test Page 3" VerticalOptions="Center" HorizontalOptions="Center" />
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+                <Image 
+                BackgroundColor="MidnightBlue"
+                Source="doj.png"
+                Aspect="AspectFit"
+                IsOpaque="True"                
+                WidthRequest="100"
+                HeightRequest="100"/>
+
+                <Label Text="Report 3 Placeholder" VerticalOptions="Center" HorizontalOptions="Center" />
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>

@@ -2,5 +2,34 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NavigationMasterDetail.Views.TestPage2">
-  <Label Text="Test Page 2" VerticalOptions="Center" HorizontalOptions="Center" />
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+                <Image 
+                BackgroundColor="MidnightBlue"
+                Source="doj.png"
+                Aspect="AspectFit"
+                IsOpaque="True"                
+                WidthRequest="100"
+                HeightRequest="100"/>
+
+                <Label
+            HorizontalTextAlignment="Center"
+            Text="Operations"
+            FontAttributes="Bold"
+            TextColor="CornflowerBlue"
+            FontSize="Large"
+            />
+                <Label
+                Text="• 14 May 2018: JSOC detected two email campaigns containing credential harvesting links. There are no indications of internal users responding to the emails.  All IOCs from the email campaigns have been blocked.  Please see the next page for statistics."
+                FontSize="Large"
+            />
+                <Label
+                Text="• 14 May 2018: approximately 2:03 PM, JSOC received an alert showing that cjis.gov was down. The Component was notified and began response actions. Approximately 8:30 PM, JSOC received that cjis.gov was back up. JSOC has requested for a root cause."
+                FontSize="Large"
+            />
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>
