@@ -17,7 +17,7 @@
                 <StackLayout BackgroundColor="#FFEAB9"
                      HeightRequest="75">
 
-                    <Label Text="Daily Executive Report - Jun-15-2018"
+                    <Label Text="Daily Executive Report - 6/15/18"
                  FontSize="20"
                  VerticalOptions="CenterAndExpand"
                  TextColor="Black"
