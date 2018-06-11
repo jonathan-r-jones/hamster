@@ -22,14 +22,16 @@ namespace NavigationMasterDetail {
             // Creating our pages for menu navigation
             // Here you can define title for item, 
             // icon on the left side, and page that you want to open after selection
-            var page1 = new MasterPageItem() { Title = "Home", Icon = "itemIcon1.png", TargetType = typeof(TestPage1) };
-            var page2 = new MasterPageItem() { Title = "Report 2", Icon = "itemIcon2.png", TargetType = typeof(TestPage2) };
-            var page3 = new MasterPageItem() { Title = "Report 3", Icon = "itemIcon3.png", TargetType = typeof(TestPage3) };
+            var page1 = new MasterPageItem() { Title = "Home - CSS System Status", Icon = "itemIcon1.png", TargetType = typeof(TestPage1) };
+            var page2 = new MasterPageItem() { Title = "Total Open Incidents", Icon = "itemIcon2.png", TargetType = typeof(TestPage2) };
+            var page3 = new MasterPageItem() { Title = "Operations", Icon = "itemIcon3.png", TargetType = typeof(TestPage3) };
+            var page4 = new MasterPageItem() { Title = "SPDR Heat Map", Icon = "itemIcon4.png", TargetType = typeof(Page4) };
 
-            // Adding menu items to menuList
-            menuList.Add(page1);
+      // Adding menu items to menuList
+      menuList.Add(page1);
             menuList.Add(page2);
             menuList.Add(page3);
+            menuList.Add(page4);
 
             // Setting our list to be ItemSource for ListView in MainPage.xaml
             navigationDrawerList.ItemsSource = menuList;

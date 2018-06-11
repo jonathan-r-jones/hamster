@@ -4,64 +4,64 @@
              xmlns:local="clr-namespace:MSCommunity_Xamarin"
              x:Class="NavigationMasterDetail.MainPage">
 
-  <MasterDetailPage.Master>
-    <ContentPage Title="Menu"
-                 BackgroundColor="Black">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Menu"
+            BackgroundColor="Black">
 
-      <StackLayout Orientation="Vertical">
-        
-        <!-- 
+            <StackLayout Orientation="Vertical">
+
+             <!-- 
              This StackLayout you can use for other
              data that you want to have in your menu drawer
-        -->
-        <StackLayout BackgroundColor="Gainsboro"
+             -->
+                <StackLayout BackgroundColor="Ivory"
                      HeightRequest="75">
 
-          <Label Text="Reports"
+                    <Label Text="Daily Executive Report - Jun-15-2018"
                  FontSize="20"
                  VerticalOptions="CenterAndExpand"
                  TextColor="Black"
                  HorizontalOptions="Center"/>
-        </StackLayout>
-
-        <ListView x:Name="navigationDrawerList"
-                  RowHeight="60"
-                  SeparatorVisibility="None"
-                  BackgroundColor="Gainsboro"
-                  ItemSelected="OnMenuItemSelected">
-
-          <ListView.ItemTemplate>
-            <DataTemplate>
-              <ViewCell>
-                
-                <!-- Main design for our menu items -->
-                <StackLayout VerticalOptions="FillAndExpand"
-                             Orientation="Horizontal"
-                             Padding="20,10,0,10"
-                             Spacing="20">
-
-                  <Image Source="{Binding Icon}"
-                         WidthRequest="40"
-                         HeightRequest="40"
-                         VerticalOptions="Center" />
-
-                  <Label Text="{Binding Title}"
-                         FontSize="Medium"
-                         VerticalOptions="Center"
-                         TextColor="Black"/>
                 </StackLayout>
-              </ViewCell>
-            </DataTemplate>
-          </ListView.ItemTemplate>
-        </ListView>
-      </StackLayout>
 
-    </ContentPage>
-  </MasterDetailPage.Master>
+                <ListView x:Name="navigationDrawerList"
+                    RowHeight="60"
+                    SeparatorVisibility="None"
+                    BackgroundColor="WhiteSmoke"
+                    ItemSelected="OnMenuItemSelected">
 
-  <MasterDetailPage.Detail>
-    <NavigationPage>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
 
-    </NavigationPage>
-  </MasterDetailPage.Detail>
+                                <!-- Main design for our menu items -->
+                                <StackLayout VerticalOptions="FillAndExpand"
+                                     Orientation="Horizontal"
+                                     Padding="20,10,0,10"
+                                     Spacing="20">
+
+                                    <Image Source="{Binding Icon}"
+                                        WidthRequest="40"
+                                        HeightRequest="40"
+                                        VerticalOptions="Center" />
+
+                                    <Label Text="{Binding Title}"
+                                        FontSize="Medium"
+                                        VerticalOptions="Center"
+                                        TextColor="Black"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+
+        </NavigationPage>
+    </MasterDetailPage.Detail>
 </MasterDetailPage>
