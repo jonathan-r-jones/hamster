@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 
 namespace NavigationMasterDetail.Views {
-    public partial class TestPage2 : ContentPage {
-        public TestPage2() {
+    public partial class Page5 : ContentPage {
+        public Page5() {
             InitializeComponent();
         }
     }

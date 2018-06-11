@@ -14,7 +14,7 @@
              This StackLayout you can use for other
              data that you want to have in your menu drawer
              -->
-                <StackLayout BackgroundColor="Ivory"
+                <StackLayout BackgroundColor="#FFEAB9"
                      HeightRequest="75">
 
                     <Label Text="Daily Executive Report - Jun-15-2018"

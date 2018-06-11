@@ -6,13 +6,20 @@
     <ScrollView>
       <StackLayout>
         <Image 
-          BackgroundColor="MidnightBlue"
+          BackgroundColor="Black"
           Source="doj.png"
           Aspect="AspectFit"
           IsOpaque="True"                
           WidthRequest="100"
           HeightRequest="100"/>
-        <Label Text="Report Placeholder" VerticalOptions="Center" HorizontalOptions="Center" />
+        <Label 
+            FontAttributes="Bold"
+            FontSize="Large"
+            HorizontalOptions="Center" 
+            Text="Report Placeholder - Under Construction" 
+            TextColor="CornflowerBlue"
+            VerticalOptions="Center" 
+            />
       </StackLayout>
     </ScrollView>
   </ContentPage.Content>

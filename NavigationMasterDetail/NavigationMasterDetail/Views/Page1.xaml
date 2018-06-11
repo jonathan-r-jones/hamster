@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NavigationMasterDetail.Views.Page1">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+                <Image 
+                    BackgroundColor="#100B3D"
+                    Source="doj.png"
+                    Aspect="AspectFit"
+                    IsOpaque="True"                
+                    WidthRequest="100"
+                    HeightRequest="100"/>
+                <BoxView 
+                    HeightRequest="1" 
+                    WidthRequest="1"
+                    BackgroundColor="Gainsboro"/>
+                <Label
+                    HorizontalTextAlignment="Center"
+                    Text="CSS System Status"
+                    FontAttributes="Bold"
+                    TextColor="CornflowerBlue"
+                    FontSize="Large"
+                />
+                <Image 
+                    BackgroundColor="Ivory"
+                    Source="css system status.PNG"
+                    Aspect="AspectFit"
+                    IsOpaque="True"                
+                    WidthRequest="100"
+                    HeightRequest="250"/>
+
+            </StackLayout>
+        </ScrollView>
+        </ContentPage.Content>
+</ContentPage>
