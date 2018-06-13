@@ -14,9 +14,7 @@ namespace NavigationMasterDetail {
         public List<MasterPageItem> menuList { get; set; }
 
         public MainPage() {
-
             InitializeComponent();
-
             menuList = new List<MasterPageItem>();
 
             // Creating our pages for menu navigation

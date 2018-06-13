@@ -26,7 +26,7 @@
                 />
                 <Image 
                     BackgroundColor="Khaki"
-                    Source="current foreign travel.PNG"
+                    Source="current_foreign_travel.PNG"
                     Aspect="AspectFit"
                     IsOpaque="True"                
                     WidthRequest="100"

@@ -26,7 +26,7 @@
                 />
                 <Image 
                     BackgroundColor="Ivory"
-                    Source="email statistics.PNG"
+                    Source="email_statistics.PNG"
                     Aspect="AspectFit"
                     IsOpaque="True"                
                     WidthRequest="100"
