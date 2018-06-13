@@ -4,7 +4,6 @@
              x:Class="NavigationMasterDetail.Views.Page2">
     <ContentPage.Content>
         <ScrollView>
-
             <StackLayout>
                 <Image 
                     BackgroundColor="White"
@@ -14,15 +13,15 @@
                     WidthRequest="100"
                     HeightRequest="100"/>
                 <BoxView 
-                HeightRequest="1" 
-                WidthRequest="1"
-                BackgroundColor="Gainsboro"/>
+                    HeightRequest="1" 
+                    WidthRequest="1"
+                    BackgroundColor="Gainsboro"/>
                 <Label
-                HorizontalTextAlignment="Center"
-                Text="Total Open Incident Reports"
-                FontAttributes="Bold"
-                TextColor="CornflowerBlue"
-                FontSize="Large"
+                    HorizontalTextAlignment="Center"
+                    Text="Total Open Incident Reports"
+                    FontAttributes="Bold"
+                    TextColor="CornflowerBlue"
+                    FontSize="Large"
             />
                 <Grid>
                     <Grid.RowDefinitions>

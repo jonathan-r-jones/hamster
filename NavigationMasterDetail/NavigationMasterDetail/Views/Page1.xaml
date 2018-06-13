@@ -4,10 +4,9 @@
              x:Class="NavigationMasterDetail.Views.Page1">
     <ContentPage.Content>
         <ScrollView>
-
             <StackLayout>
                 <Image 
-                    BackgroundColor="#100B3D"
+                    BackgroundColor="White"
                     Source="doj.png"
                     Aspect="AspectFit"
                     IsOpaque="True"                
@@ -25,7 +24,7 @@
                     FontSize="Large"
                 />
                 <Image 
-                    BackgroundColor="Ivory"
+                    BackgroundColor="WhiteSmoke"
                     Source="css_system_status.PNG"
                     Aspect="AspectFit"
                     IsOpaque="True"                

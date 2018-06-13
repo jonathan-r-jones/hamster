@@ -7,7 +7,7 @@
 
             <StackLayout>
                 <Image 
-                    BackgroundColor="LightSteelBlue"
+                    BackgroundColor="White"
                     Source="doj.png"
                     Aspect="AspectFit"
                     IsOpaque="True"                
@@ -25,7 +25,7 @@
                     FontSize="Large"
                 />
                 <Image 
-                    BackgroundColor="Ivory"
+                    BackgroundColor="WhiteSmoke"
                     Source="email_statistics.PNG"
                     Aspect="AspectFit"
                     IsOpaque="True"                

@@ -4,27 +4,29 @@
              x:Class="NavigationMasterDetail.Views.Page3">
     <ContentPage.Content>
         <ScrollView>
-
             <StackLayout>
                 <Image 
-                BackgroundColor="MidnightBlue"
-                Source="doj.png"
-                Aspect="AspectFit"
-                IsOpaque="True"                
-                WidthRequest="100"
-                HeightRequest="100"/>
-
+                    BackgroundColor="White"
+                    Source="doj.png"
+                    Aspect="AspectFit"
+                    IsOpaque="True"                
+                    WidthRequest="100"
+                    HeightRequest="100"/>
+                <BoxView 
+                    HeightRequest="1" 
+                    WidthRequest="1"
+                    BackgroundColor="Gainsboro"/>
                 <Label
-            HorizontalTextAlignment="Center"
-            Text="Operations"
-            FontAttributes="Bold"
-            TextColor="CornflowerBlue"
-            FontSize="Large"
-            />
+                    HorizontalTextAlignment="Center"
+                    Text="Operations"
+                    FontAttributes="Bold"
+                    TextColor="CornflowerBlue"
+                    FontSize="Large"
+                    />
                 <Label
-                Text="• 14 May 2018: JSOC detected two email campaigns containing credential harvesting links. There are no indications of internal users responding to the emails.  All IOCs from the email campaigns have been blocked.  Please see the next page for statistics."
-                FontSize="Large"
-            />
+                    Text="• 14 May 2018: JSOC detected two email campaigns containing credential harvesting links. There are no indications of internal users responding to the emails.  All IOCs from the email campaigns have been blocked.  Please see the next page for statistics."
+                    FontSize="Large"
+                    />
                 <Label
                 Text="• 14 May 2018: approximately 2:03 PM, JSOC received an alert showing that cjis.gov was down. The Component was notified and began response actions. Approximately 8:30 PM, JSOC received that cjis.gov was back up. JSOC has requested for a root cause."
                 FontSize="Large"

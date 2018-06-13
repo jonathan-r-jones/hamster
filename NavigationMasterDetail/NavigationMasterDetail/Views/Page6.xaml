@@ -7,7 +7,7 @@
 
             <StackLayout>
                 <Image 
-                    BackgroundColor="Khaki"
+                    BackgroundColor="White"
                     Source="doj.png"
                     Aspect="AspectFit"
                     IsOpaque="True"                
@@ -25,7 +25,7 @@
                     FontSize="Large"
                 />
                 <Image 
-                    BackgroundColor="Khaki"
+                    BackgroundColor="WhiteSmoke"
                     Source="current_foreign_travel.PNG"
                     Aspect="AspectFit"
                     IsOpaque="True"                
