@@ -1,29 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="NavigationMasterDetail.Views.Page5">
+             x:Class="NavigationMasterDetail.Views.Page5"
+             Title="Email Statistics">
     <ContentPage.Content>
         <ScrollView>
-
             <StackLayout>
-                <Image 
-                    BackgroundColor="White"
-                    Source="doj.png"
-                    Aspect="AspectFit"
-                    IsOpaque="True"                
-                    WidthRequest="100"
-                    HeightRequest="100"/>
                 <BoxView 
                     HeightRequest="1" 
                     WidthRequest="1"
                     BackgroundColor="Gainsboro"/>
-                <Label
-                    HorizontalTextAlignment="Center"
-                    Text="Email Statistics"
-                    FontAttributes="Bold"
-                    TextColor="CornflowerBlue"
-                    FontSize="Large"
+                <Image 
+                    Aspect="AspectFit"
+                    BackgroundColor="White"
+                    HeightRequest="90"
+                    IsOpaque="True"                
+                    Source="doj.png"
+                    VerticalOptions="Center"
+                    WidthRequest="90"
                 />
+                <BoxView 
+                    HeightRequest="1" 
+                    WidthRequest="1"
+                    BackgroundColor="Gainsboro"/>
                 <Image 
                     BackgroundColor="WhiteSmoke"
                     Source="email_statistics.PNG"

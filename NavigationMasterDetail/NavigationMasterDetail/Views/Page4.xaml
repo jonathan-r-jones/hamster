@@ -1,30 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    x:Class="NavigationMasterDetail.Views.Page4">
+    x:Class="NavigationMasterDetail.Views.Page4"
+    Title="SPDR Heat Map">
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
-                <Image 
-                    BackgroundColor="White"
-                    Source="doj.png"
-                    Aspect="AspectFit"
-                    IsOpaque="True"                
-                    WidthRequest="100"
-                    HeightRequest="100"/>
                 <BoxView 
                     HeightRequest="1" 
                     WidthRequest="1"
                     BackgroundColor="Gainsboro"/>
-                <Label 
+                <Image 
+                    Aspect="AspectFit"
+                    BackgroundColor="White"
+                    HeightRequest="90"
+                    IsOpaque="True"                
+                    Source="doj.png"
+                    VerticalOptions="Center"
+                    WidthRequest="90"
+                />
+                <BoxView 
+                    HeightRequest="1" 
+                    WidthRequest="1"
+                    BackgroundColor="Gainsboro"/>
+                <Label
+                    HeightRequest="30" 
+                    HorizontalTextAlignment="Center"
                     FontAttributes="Bold"
+                    Text=" "
+                    TextColor="MidnightBlue"
                     FontSize="Large"
-                    HorizontalOptions="Center" 
-                    Text="Report Placeholder - Under Construction" 
-                    TextColor="CornflowerBlue"
-                    VerticalOptions="Center" 
-                    />
-      </StackLayout>
+                />
+                <Label
+                    HeightRequest="30" 
+                    HorizontalTextAlignment="Center"
+                    FontAttributes="Bold"
+                    Text="Under Constuction"
+                    TextColor="MidnightBlue"
+                    FontSize="Large"
+                />
+            </StackLayout>
     </ScrollView>
   </ContentPage.Content>
 </ContentPage>
